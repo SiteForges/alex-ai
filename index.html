@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ALEX AI | Website Portfolio</title>
+    <meta
+      name="description"
+      content="ALEX AI is a portfolio hub for websites built by Alex, with browsable project previews and a simple way to start a new project."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="ALEX AI home">
+        <span>ALEX</span><span>AI</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#work">
+        <span>View Websites</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M5 12h13m-5-5 5 5-5 5" />
+        </svg>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">ALEX AI</h1>
+          <p>
+            A polished home for the websites I build, organized so visitors can
+            browse live work and quickly understand what each project does.
+          </p>
+          <div class="hero-actions" aria-label="Main actions">
+            <a class="button button-primary" href="#work">
+              <span>View Websites</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h13m-5-5 5 5-5 5" />
+              </svg>
+            </a>
+            <a class="button button-secondary" href="#contact">
+              <span>Start a Project</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h13m-5-5 5 5-5 5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Website preview artwork">
+          <div class="browser-stack">
+            <div class="hero-window hero-window-left" aria-hidden="true">
+              <div class="window-bar"><span></span><span></span><span></span></div>
+              <div class="window-layout blue">
+                <div class="window-copy">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="window-grid">
+                  <i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+            <div class="hero-window hero-window-main" aria-hidden="true">
+              <div class="window-bar"><span></span><span></span><span></span></div>
+              <div class="window-layout clean">
+                <div class="window-photo"></div>
+                <div class="window-copy">
+                  <span></span><span></span><span></span><b></b>
+                </div>
+                <div class="window-strip"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="hero-window hero-window-right" aria-hidden="true">
+              <div class="window-bar"><span></span><span></span><span></span></div>
+              <div class="window-layout lime">
+                <div class="window-copy">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="window-grid">
+                  <i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <span class="accent-line" aria-hidden="true"></span>
+            <h2 id="work-title">Work</h2>
+          </div>
+          <p>
+            A curated wall for the sites ALEX AI has built, from business pages
+            to storefronts and booking experiences.
+          </p>
+        </div>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter websites">
+          <button class="filter-button is-active" type="button" data-filter="All" role="tab" aria-selected="true">All</button>
+          <button class="filter-button" type="button" data-filter="Business" role="tab" aria-selected="false">Business</button>
+          <button class="filter-button" type="button" data-filter="Ecommerce" role="tab" aria-selected="false">Ecommerce</button>
+          <button class="filter-button" type="button" data-filter="Portfolio" role="tab" aria-selected="false">Portfolio</button>
+          <button class="filter-button" type="button" data-filter="Booking" role="tab" aria-selected="false">Booking</button>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="section services-section" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <span class="accent-line" aria-hidden="true"></span>
+            <h2 id="services-title">Services</h2>
+          </div>
+          <p>
+            Focused help for turning ideas, offers, and finished builds into a
+            website that feels clear and ready to share.
+          </p>
+        </div>
+
+        <div class="service-list" aria-label="ALEX AI services">
+          <article class="service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 9h16M8 5v4M8 14h4m3 0h2m-9 3h9" /></svg>
+            </div>
+            <h3>Website design</h3>
+            <span class="service-rule" aria-hidden="true"></span>
+            <p>Clean, focused designs that highlight your work and guide visitors to what matters.</p>
+            <svg class="row-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
+          </article>
+          <article class="service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 4v5m0 6v5M6 8.5l4 2.5m4 2 4 2.5M6 15.5l4-2.5m4-2 4-2.5M4 12h4m8 0h4" /></svg>
+            </div>
+            <h3>AI-assisted builds</h3>
+            <span class="service-rule" aria-hidden="true"></span>
+            <p>Modern, fast websites built with intelligent tools and best-practice code.</p>
+            <svg class="row-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
+          </article>
+          <article class="service-row">
+            <div class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 19c4-1 8-4 10-8l4-6-6 4c-4 2-7 6-8 10Zm5-5 4 4M4 20l4-1" /></svg>
+            </div>
+            <h3>Launch support</h3>
+            <span class="service-rule" aria-hidden="true"></span>
+            <p>Final QA, performance tuning, and a smooth handoff when you are ready to go live.</p>
+            <svg class="row-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
+          </article>
+        </div>
+
+        <div class="process" aria-labelledby="process-title">
+          <div class="process-heading">
+            <span class="accent-line" aria-hidden="true"></span>
+            <h2 id="process-title">From idea to live site</h2>
+          </div>
+          <ol class="process-steps">
+            <li>
+              <span class="step-number">01</span>
+              <h3>Plan</h3>
+              <p>Define goals, map structure, and plan the experience.</p>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <h3>Build</h3>
+              <p>Design and build with AI assistance and clean code.</p>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <h3>Polish</h3>
+              <p>Refine details, optimize performance, and test across devices.</p>
+            </li>
+            <li>
+              <span class="step-number">04</span>
+              <h3>Launch</h3>
+              <p>Go live with confidence and support after launch.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <span class="accent-line" aria-hidden="true"></span>
+          <h2 id="contact-title">Ready to show your work?</h2>
+          <p>
+            Send the project details and I'll help turn them into a site people
+            can actually browse.
+          </p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label class="wide-field">
+            <span>Project details</span>
+            <textarea name="details" rows="4" required></textarea>
+          </label>
+          <button class="button button-primary wide-field" type="submit">
+            <span>Start a Project</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h13m-5-5 5 5-5 5" />
+            </svg>
+          </button>
+          <p class="form-status wide-field" id="formStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top" aria-label="ALEX AI home">
+        <span>ALEX</span><span>AI</span>
+      </a>
+      <nav aria-label="Footer navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
