@@ -19,6 +19,22 @@ const projects = [
     icon: "briefcase",
   },
   {
+    title: "Spendly AI",
+    type: "Finance",
+    description: "AI-powered finance app for tracking spending and making money decisions clearer.",
+    url: "https://spendly-ai-puce.vercel.app/",
+    theme: "ecommerce",
+    icon: "cart",
+  },
+  {
+    title: "Nutri AI",
+    type: "Health",
+    description: "Nutrition-focused AI app for signing in and getting personalized food guidance.",
+    url: "https://nutri-ai-seven-chi.vercel.app/signin",
+    theme: "booking",
+    icon: "spark",
+  },
+  {
     title: "Site Forge Live",
     type: "Portfolio",
     description: "Live Site Forge experience for showcasing and launching web projects.",
